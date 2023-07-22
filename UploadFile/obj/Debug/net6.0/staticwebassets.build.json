@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "76neyDCLNCtHDA0fEHAlN+SGNlkkjKMe9Xzb9BNQqZ8=",
+  "Hash": "uw6o1ZN0uQ9nEyZ06+mypJnnDMnf0Kh0IgdmwjlCaQg=",
   "Source": "UploadFile",
   "BasePath": "_content/UploadFile",
   "Mode": "Default",
@@ -1222,6 +1222,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Febrianto\\Desktop\\latihan-upload-file\\UploadFile\\UploadFile\\wwwroot\\uploaded_doc\\test.csv",
+      "SourceId": "UploadFile",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Febrianto\\Desktop\\latihan-upload-file\\UploadFile\\UploadFile\\wwwroot\\",
+      "BasePath": "_content/UploadFile",
+      "RelativePath": "uploaded_doc/test.csv",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploaded_doc\\test.csv"
     },
     {
       "Identity": "C:\\Users\\Febrianto\\Desktop\\latihan-upload-file\\UploadFile\\UploadFile\\wwwroot\\uploaded_doc\\test.xlsx",

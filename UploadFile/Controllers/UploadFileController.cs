@@ -73,9 +73,6 @@ public class UploadFileController : Controller
         return Ok(new { files.Count, size, filePaths });
     }
 
-
-
-
     public string GenerateRandomString(int length = 20)
     {
         var random = new Random();

@@ -281,6 +281,10 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\Febrianto\\Desktop\\latihan-upload-file\\UploadFile\\UploadFile\\wwwroot\\uploaded_doc\\test.csv",
+      "PackagePath": "staticwebassets\\uploaded_doc\\test.csv"
+    },
+    {
       "Id": "C:\\Users\\Febrianto\\Desktop\\latihan-upload-file\\UploadFile\\UploadFile\\wwwroot\\uploaded_doc\\test.xlsx",
       "PackagePath": "staticwebassets\\uploaded_doc\\test.xlsx"
     },

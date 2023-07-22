@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.Data;
 using System.Diagnostics;
 using UploadFile.Models;
+using UploadFile.Repositories;
 
 namespace UploadFile.Controllers
 {
@@ -8,13 +10,28 @@ namespace UploadFile.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        private IWebHostEnvironment _webHostEnvironment;
+        private readonly ICustomerRepo _customerRepo;
+
+        public HomeController(ILogger<HomeController> logger, IWebHostEnvironment webHostEnvironment, ICustomerRepo customer)
         {
             _logger = logger;
+            _webHostEnvironment = webHostEnvironment;
+            _customerRepo = customer;
         }
 
         public IActionResult Index()
         {
+
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Index(IFormFile formFile)
+        {
+            string path = _customerRepo.DocumentUpload(formFile);
+            DataTable dt = _customerRepo.CustomerDataTable(path);
+            _customerRepo.ImportCustomer(dt);
             return View();
         }
 

@@ -12,6 +12,7 @@ public class UploadFileController : Controller
     [HttpPost("UploadFile")]
     public async Task<IActionResult> Index(List<IFormFile> files)
     {
+
         Console.WriteLine($"files : {files}"); // output : System.Collections.Generic.List`1[Microsoft.AspNetCore.Http.IFormFile]
         var size = files.Sum(h => h.Length);
         var filePaths = new List<string>();

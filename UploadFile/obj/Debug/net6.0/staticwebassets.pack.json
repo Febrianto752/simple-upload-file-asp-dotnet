@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\images1\\diagram.bpmn"
     },
     {
+      "Id": "C:\\Users\\Febrianto\\Desktop\\latihan-upload-file\\UploadFile\\UploadFile\\wwwroot\\images\\3UirZyZG8ii5pIYYC0yD-ss id visio.png",
+      "PackagePath": "staticwebassets\\images\\3UirZyZG8ii5pIYYC0yD-ss id visio.png"
+    },
+    {
       "Id": "C:\\Users\\Febrianto\\Desktop\\latihan-upload-file\\UploadFile\\UploadFile\\wwwroot\\images\\5qJQdDwmObivsw275N91-contoh.app.png.jpg",
       "PackagePath": "staticwebassets\\images\\5qJQdDwmObivsw275N91-contoh.app.png.jpg"
     },
@@ -275,6 +279,10 @@
     {
       "Id": "C:\\Users\\Febrianto\\Desktop\\latihan-upload-file\\UploadFile\\UploadFile\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Febrianto\\Desktop\\latihan-upload-file\\UploadFile\\UploadFile\\wwwroot\\uploaded_doc\\test.xlsx",
+      "PackagePath": "staticwebassets\\uploaded_doc\\test.xlsx"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.UploadFile.Microsoft.AspNetCore.StaticWebAssets.props",

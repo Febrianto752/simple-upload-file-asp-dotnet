@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "olF9IqTQAzj4K3+Xm9Bn1IQdUBqYo5ouoQB6qi5P9XY=",
+  "Hash": "76neyDCLNCtHDA0fEHAlN+SGNlkkjKMe9Xzb9BNQqZ8=",
   "Source": "UploadFile",
   "BasePath": "_content/UploadFile",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Febrianto\\Desktop\\latihan-upload-file\\UploadFile\\UploadFile\\wwwroot\\images\\3UirZyZG8ii5pIYYC0yD-ss id visio.png",
+      "SourceId": "UploadFile",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Febrianto\\Desktop\\latihan-upload-file\\UploadFile\\UploadFile\\wwwroot\\",
+      "BasePath": "_content/UploadFile",
+      "RelativePath": "images/3UirZyZG8ii5pIYYC0yD-ss id visio.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\3UirZyZG8ii5pIYYC0yD-ss id visio.png"
     },
     {
       "Identity": "C:\\Users\\Febrianto\\Desktop\\latihan-upload-file\\UploadFile\\UploadFile\\wwwroot\\images\\5qJQdDwmObivsw275N91-contoh.app.png.jpg",
@@ -1205,6 +1222,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Febrianto\\Desktop\\latihan-upload-file\\UploadFile\\UploadFile\\wwwroot\\uploaded_doc\\test.xlsx",
+      "SourceId": "UploadFile",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Febrianto\\Desktop\\latihan-upload-file\\UploadFile\\UploadFile\\wwwroot\\",
+      "BasePath": "_content/UploadFile",
+      "RelativePath": "uploaded_doc/test.xlsx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploaded_doc\\test.xlsx"
     }
   ]
 }

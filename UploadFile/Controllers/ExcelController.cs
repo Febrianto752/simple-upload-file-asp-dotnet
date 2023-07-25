@@ -8,7 +8,8 @@ public class ExcelController : Controller
 {
     public IActionResult Index()
     {
-        var products = ImportExcel(@"C:\Users\Febrianto\Desktop\latihan-upload-file\UploadFile\UploadFile\product-test.xlsx", "Products");
+        //var products = ImportExcel(@"C:\Users\Febrianto\Desktop\latihan-upload-file\UploadFile\UploadFile\product-test.xlsx", "Products");
+        var products = ImportExcel(Path.Combine(Directory.GetCurrentDirectory(), @"product-test.xlsx"));
 
         foreach (var product in products)
         {
@@ -21,11 +22,8 @@ public class ExcelController : Controller
         return View();
     }
 
-
-
     public List<Product> ImportExcel(string excelFilePath, string sheetName = "products")
     {
-
         var list = new List<Product>();
 
         using (var workbook = new XLWorkbook(excelFilePath))
